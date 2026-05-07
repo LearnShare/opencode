@@ -80,6 +80,9 @@
 | [core/agent-loop.md](core/agent-loop.md) | Session 主循环流程 |
 | [core/prompt-system.md](core/prompt-system.md) | Prompt 拼接系统 |
 | [core/session-storage.md](core/session-storage.md) | 会话存储与记忆机制 |
+| [core/multi-round-conversation.md](core/multi-round-conversation.md) | 多轮对话上下文保持机制 |
+| [core/messages-per-round.md](core/messages-per-round.md) | 每轮 LLM 交互的完整数据内容 |
+| [core/token-optimization.md](core/token-optimization.md) | Token 消耗分析与优化策略 |
 
 ### integration/ - 集成模块
 
@@ -177,3 +180,15 @@
 
 - [appendices/03-glossary.md](appendices/03-glossary.md) - 术语表
 - [appendices/04-faq.md](appendices/04-faq.md) - 常见问题
+
+---
+
+## 架构/流程图 (diagrams/)
+
+详细的架构和流程图，帮助深入理解系统工作原理：
+
+| 文档 | 说明 |
+|------|------|
+| [diagrams/01-agent-loop.md](diagrams/01-agent-loop.md) | Agent Loop 主循环完整流程 |
+| [diagrams/02-tool-call-lifecycle.md](diagrams/02-tool-call-lifecycle.md) | Tool Call 生命周期和状态机 |
+| [diagrams/03-llm-api-interaction.md](diagrams/03-llm-api-interaction.md) | LLM API 交互及数据结构 |
