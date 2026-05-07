@@ -1,5 +1,9 @@
 # ACP (Agent Client Protocol) 协议研究报告
 
+> 研究时间: ~3 小时
+> 状态: ✅ 已完成
+> 关联 Phase: 6
+
 ---
 
 ## 1. 概述
@@ -305,7 +309,7 @@ private permissionOptions: PermissionOption[] = [
 
 ---
 
-## 8. 关键文件
+## 8. 关键文件索引
 
 | 文件 | 说明 |
 |------|------|

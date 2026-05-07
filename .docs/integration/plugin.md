@@ -1,5 +1,9 @@
 # 插件系统研究报告
 
+> 研究时间: ~2 小时
+> 状态: ✅ 已完成
+> 关联 Phase: 8
+
 ---
 
 ## 1. 插件类型
@@ -154,7 +158,7 @@ trigger(name: Name, input: Input, output: Output): Effect.Effect<Output> {
 
 ---
 
-## 5. 关键文件
+## 5. 关键文件索引
 
 | 文件 | 说明 |
 |------|------|
